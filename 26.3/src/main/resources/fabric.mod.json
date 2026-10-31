@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "challengetimer",
+  "version": "${version}",
+  "name": "Challenge Timer",
+  "description": "Hochlaufender Timer über der Hotbar, per Command steuerbar.",
+  "authors": ["Niklas"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.niklas.challengetimer.ChallengeTimerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "fabric-api": "*",
+    "minecraft": "~26.3",
+    "java": ">=25"
+  }
+}
